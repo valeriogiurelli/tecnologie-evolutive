@@ -25,7 +25,7 @@ export async function POST(request: Request) {
     const buffer = Buffer.from(arrayBuffer);
 
     await resend.emails.send({
-      from: "Tecnologie Evolutive <onboarding@resend.dev>",
+      from: "Tecnologie Evolutive <candidature@tecnologieevolutive.it>",
       to: process.env.ADMIN_EMAIL!,
       subject: `Nuova candidatura - ${nome} ${cognome}`,
       html: `
