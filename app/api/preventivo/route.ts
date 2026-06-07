@@ -42,7 +42,7 @@ export async function POST(req: Request) {
 
     await resend.emails.send({
       from: "Preventivi <onboarding@resend.dev>",
-      to: "giurelli.v@gmail.com",
+      to: process.env.ADMIN_EMAIL!,
       subject: `Nuovo preventivo - ${nome} ${cognome}`,
       html: `
         <h2>Nuova richiesta preventivo</h2>
