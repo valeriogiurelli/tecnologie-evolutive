@@ -24,9 +24,9 @@ export default function CookieBanner() {
   }, []);
 
   function accettaCookie() {
-    localStorage.setItem("cookie-consent", "accepted");
-    setVisibile(false);
-  }
+  localStorage.setItem("cookie-consent", "accepted");
+  window.location.reload();
+}
 
   function rifiutaCookie() {
     localStorage.setItem("cookie-consent", "rejected");
