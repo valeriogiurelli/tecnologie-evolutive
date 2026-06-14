@@ -190,11 +190,13 @@ setMessaggioSuccesso("");
       <header className="fixed left-0 top-0 z-50 w-full border-b border-white/10 bg-black/35 backdrop-blur-xl">
         <div className="flex items-center justify-between gap-3 px-4 py-3 md:grid md:grid-cols-[auto_1fr_auto] md:items-center md:px-8">
           <div className="flex items-center gap-3 md:gap-4">
-            <img
-              src="/images/logo-tecnologie-evolutive.png"
-              alt="Logo Tecnologie Evolutive"
-              className="h-14 w-auto md:h-20"
-            />
+            <div className="rounded-2xl bg-white/10 p-2 backdrop-blur-sm">
+  <img
+    src="/images/logo-tecnologie-evolutive.png"
+    alt="Logo Tecnologie Evolutive"
+    className="h-14 w-auto md:h-20"
+  />
+</div>
             <div className="block">
   <p className="text-lg font-black md:text-xl">
     Tecnologie Evolutive
