@@ -352,7 +352,7 @@ setMessaggioSuccesso("");
                     <Star key={n} className="h-6 w-6 fill-current" />
                   ))}
                 </div>
-                <span className="font-bold text-blue-700">151 recensioni</span>
+                <span className="font-bold text-blue-700">154 recensioni</span>
               </div>
 
               <div className="mt-7 flex flex-wrap gap-3">
